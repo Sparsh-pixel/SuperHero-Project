@@ -1,0 +1,96 @@
+body {
+
+    background-image: url(image/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#searchHero {
+    display: block;
+    width: 53%;
+    height: 3rem;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: black;
+    padding-left: 2%;
+    background-color: whitesmoke;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+#main-heading {
+    text-align: center;
+    font-size: 30px;
+    color: rosybrown;
+    background-color: black;
+    padding: 20px;
+    margin-left: 50px;
+    bottom: 20px;
+    position: relative;
+}
+
+.image-size {
+    width: 70px;
+    height: 70px;
+    margin-left: 2rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid black;
+    overflow: scroll;
+    height: 35vh;
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+ul li {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 6rem;
+    outline: none;
+    border: none;
+    background-color: brown;
+    color: white;
+}
+
+#delFav {
+    /* position: absolute; */
+    color: red;
+    font-size: 25px;
+}
+
+#addFav {
+    /* position: absolute; */
+    font-size: 25px;
+    color: lightgray;
+}
+
+.search-item a {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
